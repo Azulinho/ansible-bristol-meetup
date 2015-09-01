@@ -17,6 +17,7 @@ ansible_roles = [
   'Azulinho.azulinho-java-openjdk-jdk',
   'Azulinho.azulinho-yum-repo-jenkins',
   'Azulinho.azulinho-yum-plugin-versionlock',
+  'Azulinho.azulinho-jenkins-job-builder',
   'Azulinho.azulinho-jenkins-reconfigure-jobs-using-jinja2',
   'Azulinho.azulinho-jenkins-reconfigure-jobs-using-job-builder',
   'Azulinho.azulinho-jenkins-reconfigure-jobs-using-job-dsl',
@@ -26,9 +27,11 @@ ansible_roles = [
   'Azulinho.azulinho-ssh-keys',
   'joshualund.ruby-2_1',
   'joshualund.ruby-common',
+  'Azulinho.azulinho-yum-repo-rpmforge',
   'Azulinho.azulinho-zabbix-agent',
   'Azulinho.azulinho-zabbix-checks',
   'Azulinho.azulinho-zabbix-server',
+  'Azulinho.azulinho-devel-packages'
 ]
 
 task :default => ['setup', 'vagrant_up'] do
