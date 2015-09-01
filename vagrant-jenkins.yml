@@ -12,5 +12,5 @@
 
 # Choose your desired profile to apply to this vagrant VM
 #
-  include:  jenkins.yml
+- include:  jenkins.yml
 
